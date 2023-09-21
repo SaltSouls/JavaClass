@@ -18,6 +18,7 @@ public class _05_GUI_Intro {
          You can't normally pass 'showInputDialog' into an int as it tries
          to return a string; but by using the 'Integer' wrapper class and
          the 'parseInt' function to grab an integer from the string we can.
+
          Much like in 'Definitions._03_User_Input', if you put in something
          other than the desired variable type, it will cause the program to
          crash. This, again, can be remedied using checks; of which we will

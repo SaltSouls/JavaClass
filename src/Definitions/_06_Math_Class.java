@@ -36,7 +36,8 @@ public class _06_Math_Class {
 
         /*
          Rounding is a bit unique from the other functions as there are
-         multiple different rounding functions.
+         multiple different rounding functions. These functions are:
+
          'Math.round()' basic rounding
          'Math.ceil()'  rounding up
          'Math.floor()' rounding down

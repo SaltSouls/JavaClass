@@ -13,6 +13,7 @@ public class _09_Switch_Statements {
          and easier to read than a large series of 'if' statements. Therefore, they should
          mainly be used as an alternative to having a large series of 'if' statements, though
          there are other reasons and scenarios to use them over an 'if' statement.
+
          Supported Data Types:
          ---------------------------------
                      | (Wrapper Classes)
@@ -51,6 +52,7 @@ public class _09_Switch_Statements {
          the switch statement to run the code for all following cases regardless of whether
          the case would actually return true. This will only happen until the 'switch'
          reaches another 'break' line. This functionality can be useful in certain situations.
+
          Another thing to note is much like with the `else` statement acting as a default for
          `if`, the `switch` statement also has a default, which is actually just named 'default'.
          This can be used to run something in the case that no other cases return true.
@@ -80,12 +82,14 @@ public class _09_Switch_Statements {
          Like with 'if' statements, the 'switch' doesn't only need to test for one condition.
          You can chain multiple checks together by putting a comma between each value you want
          to check against.
+
          If you are setting the values of a variable within a 'switch' statement, you can just
          make the variable you are wanting to set the value of equal to the returned value of
          the 'switch' statement. When doing this method, the switch statement becomes
          exhaustive, meaning that all possible outcomes need to have a return value. Whether
          that means you make a case for each possible outcome or use 'default' to cover any
          additional outcomes not considered important is up to what you are looking to do.
+
          For our next examples, let's use these two things to randomize our days of the week.
         */
 

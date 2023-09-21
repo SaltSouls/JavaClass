@@ -54,6 +54,7 @@ public class _02_Variables {
          Longs and floats must have their corresponding suffix added at the end
          of the defined number; otherwise the compiler will try to read them as
          and int or a double instead.
+
          You can also see when running the code that the float/double will
          automatically round the number down to the nearest decimal place if
          it is above the allowed amount. This makes doubles better for getting

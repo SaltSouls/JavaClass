@@ -7,6 +7,7 @@ public class _01_Print {
     /*
      This is how to do a multi-line comment.
      Pretty cool, right?
+
      For some clarification, a comment is a line(s) in your code that the computer will
      ignore when running the program. When the code is compiled, the comments are
      stripped away, so that only the actual code your program needs remains. It is
@@ -24,11 +25,12 @@ public class _01_Print {
     public static void main(String[] args) {
 
         /*
-         Code moves from top to bottom in the main method.
-         Each statement must end with ';' to let the compiler know the statement is over.
-         Like the main method, the println function can be typed faster by typing 'sout'
-         and then hitting tab to autocomplete. You will also be given multiple options
-         of print functions to pick from before hitting tab.
+         Code moves from top to bottom in the main method, and each statement must end with
+         ';' to let the compiler know the statement is over.
+
+         Like the main method, the 'println' function can be typed faster by typing 'sout'
+         and then hitting tab to autocomplete. You will also be given multiple options of
+         print functions to pick from before hitting tab.
         */
         System.out.println("Hello world!"); // prints the line and creates a new line after
         System.out.print("Test Line 2."); // prints to same line
@@ -37,10 +39,12 @@ public class _01_Print {
          There are also special character sets that can be used in print
          functions that have different meaning. These are called escape
          sequences. Some escape sequences and what they do are as follows:
+
          '\n' creates a new line, much like how println does
          '\t' emulates a tab spacing
          '\"' is used to display double quotes
          '\\' when in doubles quotes are used to display a backslash
+
          In essence, the backslash is used as a way to escape the current
          string in question. These do need to be followed with something,
          though as otherwise the compiler will throw an error as the

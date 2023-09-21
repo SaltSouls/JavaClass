@@ -4,6 +4,8 @@ public class _04_Expressions {
 
     /*
      Expressions are a combination of operands and operators.
+
+     -----------------------------------
      Operands:    | Operators:
      -------------|---------------------
      values       | '+' addition
@@ -12,6 +14,7 @@ public class _04_Expressions {
      quantity     | '/' division
                   | '%' modulo
      -----------------------------------
+
      '%' modulo is a unique one from the other operators as,
      instead of being a standard mathematical symbol associated
      with a type of operation, it is used to get the remainder
@@ -48,6 +51,7 @@ public class _04_Expressions {
          using a new variable to be able to store the cast variable.
          To cast a variable, you need to put the new type inside '()'
          before the variable you are casting.
+
          Side Note:
          Generally most IDEs will tell you if you need to cast a
          variable. That and you don't need to cast unless you are

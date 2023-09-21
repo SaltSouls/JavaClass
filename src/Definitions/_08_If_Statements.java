@@ -21,12 +21,14 @@ public class _08_If_Statements {
          parenthesis are true, and if so, will then preform the block of
          code within the curly brackets. Some comparison operators that
          can be used are as follows:
+
          '==' equal to
          '>' greater than
          '<' less than
          '>=' greater than or equal to
          '<=' less than or equal to
          '!=' not equal to
+
          The '=' is an assignment operator and should not be used inside
          a conditional as that just sets the variable equal to whatever
          the value is that follows the '=' sign.
@@ -42,7 +44,9 @@ public class _08_If_Statements {
          conditional if the variable the conditional is checking is a boolean.
          If they aren't a boolean or the statement contains more than one
          condition, then it needs to be formatted as such:
+
          '!(check(s))'
+
          This, in essence, is saying if the check is not true, run the code.
         */
         // example of an inverted boolean check:
@@ -62,6 +66,7 @@ public class _08_If_Statements {
          previous not returning true. 'else' statements can't take conditions.
          You can combine the 'else' statement with an 'if' statement to check
          for another condition if the previous one returned false.
+
          An 'else' statement should only be used at the end of a series of
          checks as it acts as a default go-to if none of the other conditions
          results are true. If put in the middle of a series of checks, the
