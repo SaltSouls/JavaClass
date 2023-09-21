@@ -19,6 +19,7 @@ public class _10_Logical_Operators {
          accepted return value of an expression. These are useful if you are trying
          to make more specific conditions to check for when using statements such as
          the 'if' statement. These operators are as follows:
+
          '&&' (AND) both conditions must return true
          '||' (OR) either condition must return true
          '!'  (NOT) reverses the boolean value of the condition
